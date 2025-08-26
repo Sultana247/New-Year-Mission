@@ -229,3 +229,211 @@
     width: 140px;
     height: 140px;
 }
+.holiday-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto 0px auto;
+}
+#holiday-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: medium;
+    color: #070211;
+    margin: 0px;
+}
+#holiday-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 72px;
+    font-weight: bolder;
+    color: #070211;
+    margin-top: 16px;
+}
+#holiday-text{
+    color: #FF0000;
+}
+#holiday-desc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #070211;
+    width: 700px;
+    text-align: center;
+    margin-top: -90px;
+}
+.holiday-image{
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+    height: 230px;
+    margin: 490px auto 0px auto;
+}
+#giftImg{
+    width: 675px;
+    height: 578px;
+    margin: -370px 200px 85px auto;
+}
+#womenImg{
+    width: 441px;
+    height: 433px;
+    margin: -900px auto 293px auto;
+}
+.portfolio-content{
+    margin: 120px auto 0px 100px;
+
+}
+#portfolio-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: medium;
+    color: #FF0000;
+    margin: 0px;
+    /* margin-left: 100px; */
+    /* margin: 120px auto 0px auto; */
+    /* text-align: left; */
+}
+#portfolio-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #070211;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    /* margin-left: 100px; */
+    /* text-align: left; */
+}
+#portfolio-des{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #070211;
+    width: 700px;
+    /* margin-top: -120px; */
+    /* margin-left: 100px; */
+    /* text-align: left; */
+}
+#discountImg{
+    width: 220px;
+    height: 220px;
+    margin: -600px auto 480px 780px;
+
+}
+.portfolio-row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 120px auto 0px auto;
+}
+.protfolio-row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 24px auto 0px auto;
+}
+.port-image-col{
+    width: 424px;
+    height: 450px;
+    object-fit: cover;
+}
+/* ...existing code... */
+.newsletter-form {
+    display: flex;
+    width: 648px;
+    height: 72px;
+    margin: 0 auto;
+    border-radius: 36px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.newsletter-input {
+    flex: 1;
+    border: none;
+    padding: 0 24px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 36px 0 0 36px;
+}
+
+.newsletter-btn {
+    width: 200px;
+    background: #FF0000;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0 36px 36px 0;
+    cursor: pointer;
+}
+/* ...existing code... */
+.newsletter{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.05));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    margin: 120px auto 0 auto;
+    width: 1320px;
+    border-radius: 16px;
+}
+#newsletter-img{
+    width: 150px;
+    height: 150px;
+}
+#newsletter-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    font-weight: medium;
+    color: #070211;
+    margin: 0px;
+}
+#newsletter-des{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #070211;
+    margin:22px auto 48px auto;
+    width: 700px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px auto 0px auto;
+    background-color: #070211;
+    height: 610px;
+    padding-top: 120px;
+}
+.footer-socials{
+    display: flex;
+    margin-top: 220px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.footer-text{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: medium;
+    color:#FFFFFF;
+    width: 370px;
+}
+.footer-btn{
+    background: transparent;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    font-size: 24px;
+   
+}
+#footer-rights{
+    margin-top: 300px;
+}
+#footer-unsubscribe{
+    margin-top: 280px;
+}
